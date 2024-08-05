@@ -47,7 +47,7 @@ async function buildMeetings() {
       eventsForHuman
     );
   } catch (e) {
-    console.error(e);
+    console.log.error(e);
   }
 }
 buildMeetings();
